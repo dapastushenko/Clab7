@@ -14,7 +14,7 @@ public class Test
         Console.WriteLine("{0} {1} {2}", bankAccount1.Type(), bankAccount1.Number(), bankAccount1.Balance());
         Console.WriteLine("{0} {1} {2}", bankAccount2.Type(), bankAccount2.Number(), bankAccount2.Balance());
 
-        bankAccount1.TransferFrom(bankAccount2, 10);
+        bankAccount1.TransferFrom(bankAccount2, 10); 
 
         Console.WriteLine("After transfer");
         Console.WriteLine("{0} {1} {2}", bankAccount1.Type(), bankAccount1.Number(), bankAccount1.Balance());
